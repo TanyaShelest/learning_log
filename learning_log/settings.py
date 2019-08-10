@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'af^f(mgkfht$ydsu09c*t#_z=f)vrpp=w=ps5$z*j&+ad$q$72'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
@@ -150,7 +150,7 @@ if os.getcwd() == '/app':
 	# Allow all host headers.
 	ALLOWED_HOSTS = ['learnandlog-project.herokuapp.com']
 	
-	#DEBUG = False
+	DEBUG = False
 
 	# Static asset configuration
 	BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
